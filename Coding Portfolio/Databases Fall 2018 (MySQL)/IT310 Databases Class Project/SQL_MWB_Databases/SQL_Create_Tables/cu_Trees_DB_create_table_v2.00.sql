@@ -1,0 +1,66 @@
+CREATE TABLE TREE
+(
+	Tnum	CHAR(5)		NOT NULL,
+    Snum	INT         NOT NULL,
+    TDate   DATE        NOT NULL,
+    PRIMARY KEY(Tnum)
+);
+
+CREATE TABLE TREE_LOCATION
+(
+	TL_Tnum	CHAR(5)		NOT NULL,
+    TL_LAT	DECIMAL		NOT NULL,
+    TL_LNG	DECIMAL		NOT NULL,
+    TL_Gnum	CHAR(2)		NOT NULL,
+    PRIMARY KEY(TL_Tnum),
+    FOREIGN KEY(TL_Tnum) REFERENCES TREE (Tnum)
+);
+
+CREATE TABLE TREE_INFO
+(
+	TI_Tnum	  CHAR(5)		NOT NULL,
+    TI_Age	  DECIMAL		NOT	NULL,
+    TI_DBH	  DECIMAL		NOT NULL,
+    TI_Height DECIMAL	    NOT NULL,
+    TI_DoB	  DATE,
+    TI_DoD    DATE,
+    
+	PRIMARY KEY(TI_Tnum),
+    FOREIGN KEY(TI_Tnum) REFERENCES TREE (Tnum)
+);
+
+CREATE TABLE TREE_TAXONOMY
+(
+	TT_Snum	  CHAR(5)		NOT NULL,
+    TT_Cname  VARCHAR(15)	NOT NULL,
+    TT_Family VARCHAR(15)	NOT NULL,
+    TT_Genus  VARCHAR(15)   NOT NULL,
+    TT_Specific_Epithet VARCHAR(15) NOT NULL,
+    
+    PRIMARY KEY(TT_Snum),
+    UNIQUE(TT_Snum)
+);
+
+CREATE TABLE TREE_USER
+(
+	TU_Tnum		CHAR(5)		NOT NULL,
+    TU_IDnum	CHAR(5)		NOT NULL,
+    TU_Lname	VARCHAR(10) NOT NULL,
+    TU_Fname 	VARCHAR(10)	NOT NULL,
+    
+    PRIMARY KEY(TU_Tnum),
+    FOREIGN KEY(TU_Tnum) REFERENCES TREE (Tnum)
+);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

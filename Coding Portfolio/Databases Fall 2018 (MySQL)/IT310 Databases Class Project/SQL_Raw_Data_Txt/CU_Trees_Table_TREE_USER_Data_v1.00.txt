@@ -1,0 +1,23 @@
+# File: CU_Trees_Table_TREE_USER_Data_v1.00
+
+
+# Contains the following data:
+#Tree_User: TU_Tnum  :CHAR(5)    :
+#Tree_User: TU_IDnum :CHAR(10)    :
+#Tree_User: TU_Lname :VARCHAR(10) :
+#Tree_User: TU_Fname :VARCHAR(10) :
+
+
+#Example:
+#TU_Tnum:TU_IDnum:TU_Lname:TU_Fname:
+#nnnnn:nnnnn:nnnnnnnnnn:nnnnnnnnnn:
+
+
+00001:20180001:Powell:Dustin:
+00002:20180001:Powell:Dustin:
+00003:20180003:Wagner:Taylor:
+00004:20180003:Wagner:Taylor:
+00005:20180004:Kelso:Nick:
+00006:20180004:Kelso:Nick:
+00007:20180001:Powell:Dustin:
+00008:20180002:Vazquez:Daniel:

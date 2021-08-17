@@ -1,0 +1,15 @@
+# File: CU_Trees_Table_TREE_TAXONOMY_Data_v1.00
+
+# Contains following data:
+#    Tree_Taxonomy: TT_Snum             : INT:
+#    Tree_Taxonomy: TT_Cname            : VARCHAR(15):
+#    Tree_Taxonomy: TT_Family           : VARCHAR(15):
+#    Tree_Taxonomy: TT_Genus            : VARCHAR(15):
+#    Tree_Taxonomy: TT_Specific_Epithet : VARCHAR(15):
+
+# Example
+# TT_Snum:TT_Cname:TT_Family:TT_Genus:TT_Specific_Epithet:
+# nnnnn:nnnnnnnnnnnnnnn:nnnnnnnnnnnnnnn:nnnnnnnnnnnnnnn:nnnnnnnnnnnnnnn:
+
+00001:Green Ash:Oleaceae:Fraxinus:Pennsylvanica:
+00002:Sugar Maple:Sapindaceae:Acer:Saccharum:

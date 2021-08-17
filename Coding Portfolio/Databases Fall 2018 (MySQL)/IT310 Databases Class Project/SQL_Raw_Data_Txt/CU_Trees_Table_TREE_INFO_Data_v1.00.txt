@@ -1,0 +1,22 @@
+# File: CU_Trees_Table_TREE_INFO_Data_v1.00
+
+# Contains the following data:
+#Tree_Info: TI_Tnum    : CHAR(5)         :
+#Tree_Info: TI_Age     : DECIMAL(4,4)    :            
+#Tree_Info: TI_DBH     : DECIMAL(4,4)    :     
+#Tree_Info: TI_Height  : DECIMAL(4,4)    :       
+#Tree_Info: TI_DoB     : DATE(YYYY-MM-DD):                
+#Tree_Info: TI_DoD     : DATE(YYYY-MM-DD):
+
+#Example:
+#TI_Tnum:TI_Age:TI_DBH:TI_Height:TI_DoB:TI_DoD:
+#nnnnn:nnnn.nnnn:nnnn.nnnn:nnnn.nnnn:YYYY-MM-DD:YYYY-MM-DD:
+
+00001:0094.5700:0023.6400:0074.2720:NULL:NULL:
+00002:0114.3600:0028.5900:0108.7830:NULL:NULL:
+00003:0094.8564:0023.7140:0065.2500:NULL:NULL:
+00004:0108.5430:0019.7350:0100.5900:NULL:NULL:
+00005:0113.9554:0028.4890:0097.2970:NULL:NULL:
+00006:0095.4934:0023.8730:0095.6740:NULL:NULL:
+00007:0187.1680:0046.7920:0120.2870:NULL:NULL:
+00008:0115.3860:0028.8390:0091.5280:NULL:NULL:

@@ -1,0 +1,135 @@
+/*
+     File Name: cu_tree_db.css
+      Due Date: April 2019
+     Last Edit: 03/26/19
+       Authors: Dustin Powell
+                Daniel Vazquez
+
+       Purpose: CSS for elements of the webpages.
+ 
+       Reference(s): https://www.w3schools.com/howto/howto_js_topnav.asp
+                     https://www.w3schools.com/howto/howto_css_fixed_footer.asp
+                     https://www.w3schools.com/css/ (syntax reference)
+                     https://www.w3schools.com/html/ (syntax reference)
+                     IT240 Course book (syntax reference)
+
+       See readme.txt for change logs
+*/
+
+    /*CSS: Website Header
+      Reference: https://www.w3schools.com/howto/howto_js_topnav.asp
+    */
+    .siteHead { color: white; 
+                text-align: center; 
+                background-color: maroon; 
+                width: 32%;
+                padding: 10px;
+                border: 3px solid gray;
+              }
+
+    .siteHead a { color: white; 
+                  text-decoration: none;
+                  padding: 1px;
+                  overflow: hidden;
+                }
+
+    .menu { width:100%;
+            text-align: center;
+            background-color: maroon; 
+            border:3px solid gray;
+            table-layout: fixed;
+          }
+
+    .menu a { color: white; 
+              text-decoration: none; 
+              font-size: 20px;
+            }
+
+    header { background: url("../images/Campus.JPG");
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: 50% 50%;
+             border: gray; border: 5px solid gray; 
+             padding: 100px 5px 2px 10px;
+              
+           }
+
+    /* CSS: Website Standard Body */
+
+    .main_group { margin-left: 1.75cm;
+                  margin-right: 1.75cm;
+                  margin-top: 0cm;
+                  margin-bottom: 0cm;
+                  background: white;
+                  border-left: 3px solid gray;
+                  border-right: 3px solid gray;
+                  border-top:1px solid gray;
+                  border-bottom:1px solid gray;
+                }
+    .item_header { border: 3px solid gray;
+                   color: white;
+                   background: maroon;
+                   width: 33%;
+                   font-size: 25px;
+                 }
+
+    .page_item { margin-left: 3cm;
+                 margin-right: 3cm;
+                 margin-top: 1cm;
+                 margin-bottom: 1cm;
+                 border: none;
+                 font-size: 16px;
+               }
+
+        body { background: #57723f;
+             }
+
+    /* CSS: Website Footer
+       Reference: https://www.w3schools.com/howto/howto_css_fixed_footer.asp 
+    */
+    footer { background-color: maroon;
+             border: 5px solid gray;
+             padding-left: 10px;
+             padding-right: 10px;
+             position: absolute;
+             left: 8px;
+             right: 8px;
+             bottom: auto;
+           }
+
+    .footer_text { color: white;
+                   width: 100%;
+                   text-align: center;
+                 }
+
+
+                 
+    /* CSS: Varrious page elements */
+
+    .css_image { border: 3px solid gray
+               }
+
+    .website_welcome { color: maroon;
+                       font-style: italic;
+                       font-size: 30px;
+                       margin: 10px;
+                       padding: 5px;
+                     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

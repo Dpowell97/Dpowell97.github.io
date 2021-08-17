@@ -1,0 +1,41 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {paragraph}{\indent }{1}
+\contentsline {subsection}{\numberline {1.1}Prediction of Private Information}{1}
+\contentsline {paragraph}{\indent }{1}
+\contentsline {subsection}{\numberline {1.2}Question To Address And Project Goal}{2}
+\contentsline {paragraph}{\indent }{2}
+\contentsline {section}{\numberline {2}Predictive Analytics}{3}
+\contentsline {subsection}{\numberline {2.1}Big Data's Relationship With Predictive Analytics}{3}
+\contentsline {paragraph}{\indent }{3}
+\contentsline {subsection}{\numberline {2.2}Analytics}{4}
+\contentsline {paragraph}{\indent }{4}
+\contentsline {subsection}{\numberline {2.3}Predictive Analytics and Business}{5}
+\contentsline {paragraph}{\indent }{5}
+\contentsline {section}{\numberline {3}Making Predictions With Regression}{5}
+\contentsline {paragraph}{\indent }{5}
+\contentsline {section}{\numberline {4}Machine Learning}{8}
+\contentsline {paragraph}{\indent }{8}
+\contentsline {subsection}{\numberline {4.1}The Internal Workings of Machine Learning}{9}
+\contentsline {paragraph}{\indent }{9}
+\contentsline {subsection}{\numberline {4.2}Sub--types of Machine Learning}{11}
+\contentsline {paragraph}{\indent }{11}
+\contentsline {subsection}{\numberline {4.3}Scikit-learn vs TensorFlow}{12}
+\contentsline {paragraph}{\indent }{12}
+\contentsline {section}{\numberline {5}Machine Learning And Personality Prediction}{13}
+\contentsline {subsection}{\numberline {5.1}The Experiment's Plan}{13}
+\contentsline {paragraph}{\indent }{13}
+\contentsline {subsection}{\numberline {5.2}The Data Set and Preparation For Testing}{14}
+\contentsline {paragraph}{\indent }{14}
+\contentsline {subsection}{\numberline {5.3}The Algorithm}{15}
+\contentsline {paragraph}{\indent }{15}
+\contentsline {subsection}{\numberline {5.4}The Experiment}{23}
+\contentsline {paragraph}{\indent }{23}
+\contentsline {subsection}{\numberline {5.5}The Results}{24}
+\contentsline {paragraph}{\indent }{24}
+\contentsline {section}{\numberline {6}Future Works}{27}
+\contentsline {paragraph}{\indent }{27}
+\contentsline {section}{\numberline {7}Conclusion}{28}
+\contentsline {paragraph}{\indent }{28}
+\contentsline {section}{\numberline {8}Appendix: Definitions}{29}
+\contentsline {section}{\numberline {9}Appendix: Project Program}{31}

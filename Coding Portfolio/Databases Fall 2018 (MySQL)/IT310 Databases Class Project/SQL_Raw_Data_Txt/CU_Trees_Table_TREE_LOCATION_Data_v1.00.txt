@@ -1,0 +1,20 @@
+# File: CU_Trees_Table_TREE_LOCATION_Data_v1.00
+
+# Contains the following data:
+#Tree_Location: TL_Tnum  : CHAR(5)     :
+#Tree_Location: TL_LAT   : DECIMAL(4,4):
+#Tree_Location: TL_LNG   : DECIMAL(4,4):
+#Tree_Location: TL_Gnum  : CHAR(2)     :
+
+#Example:
+#TL_Tnum:TL_LAT:TL_LNG:TL_Gnum:
+#nnnnn:+nnnn.nnnn:+nnnn.nnnn:nn:
+
+00001:+0036.2038:-0086.2988:B3:
+00002:+0036.2041:-0086.2991:B3:
+00003:+0036.5040:-0086.2991:B3:
+00004:+0036.2038:-0086.2991:B3:
+00005:+0036.2044:-0086.2989:B3:
+00006:+0036.2040:-0086.2992:B3:
+00007:+0036.2040:-0086.2984:B3:
+00008:+0036.2039:-0086.2980:B4:

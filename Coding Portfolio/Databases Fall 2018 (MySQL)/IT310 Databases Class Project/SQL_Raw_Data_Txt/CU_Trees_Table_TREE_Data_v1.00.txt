@@ -1,0 +1,20 @@
+# File: CU_Trees_Table_TREE_Data_v1.00
+
+# Contains the following data:
+# Date: 17-Nov-2018
+#Tree: Tnum: CHAR(5)         :
+#Tree: Snum: INT             :
+#Tree: TDate: DATE(YYYY-MM-DD):
+
+#Example:
+#Tnum:Snum:Tdate:
+#nnnnn:nnnn:YYYY-MM-DD:
+
+00001:0001:2018-11-02:
+00002:0001:2018-11-02:
+00003:0001:2018-11-15:
+00004:0002:2018-11-15:
+00005:0001:2018-11-15:
+00006:0001:2018-11-15:
+00007:0001:2018-11-15:
+00008:0002:2018-11-15:

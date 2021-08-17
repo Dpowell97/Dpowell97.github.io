@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <!--
+        File name: select.html
+        Due Date: April 2019
+        Last Edit: 03/26/19
+        Authors: Dustin Powell
+                 Daniel Vazquez
+
+        Purpose: Radio buttons to select a table from the database.
+
+        Reference(s): https://www.w3schools.com/css/ (syntax reference)
+                      https://www.w3schools.com/html/ (syntax reference)
+                      IT240 Course book (syntax reference)
+
+        See readme.txt for change logs
+        -->
+
+    </head>
+
+    <!-- Select table to determine which table the user would like to view -->
+    <body>
+
+        <center><h2 class="item_header">Select table to view:</h2>
+
+        <form method="POST" action="tables.php" target="_self">
+            <input type="radio" name="Tables" value="Tree">Tree</input>
+            <input type="radio" name="Tables" value="T_Info">Tree Info</input>
+            <input type="radio" name="Tables" value="T_Location">Tree Location</input>
+            <input type="radio" name="Tables" value="T_User">Users</input>
+            <input type="radio" name="Tables" value="T_Taxonomy">Tree Taxonomy</input>
+            <p></p>
+            <input type="submit" value="View" name="Submit"></input>
+        </form></center>    
+
+    </body>
+
+</html>

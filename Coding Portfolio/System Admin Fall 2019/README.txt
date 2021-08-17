@@ -1,0 +1,1 @@
+A PDF showing a manual used to setup a Raspberry Pi 4 to practice technial writing and system adminstration skills as the course project.

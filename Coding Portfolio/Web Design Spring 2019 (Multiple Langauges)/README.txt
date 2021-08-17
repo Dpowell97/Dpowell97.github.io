@@ -1,0 +1,2 @@
+The file contains HTML, CSS, PHP, and MySQL to create a mock website for gorup project in Web Design.
+The project was to create a website to display the information related to the databases course project and retrive infromation from the database to display.

@@ -1,0 +1,29 @@
+\frametitle{The Project Code: Displaying Results Section}
+\footnotesize
+This section of the code is meant for displaying the results of the test with a MatPlotLib 3D Scatter plot
+\fontsize{6}{5}
+\begin{verbatim}
+    #Section: Displaying Results-----------------------------------------------
+
+    #Initialization of MatPlotLib model
+    ax = plt.axes(projection='3d')
+
+    #Plots MLPClassifier data
+    ax.scatter3D(feature, MLPdata1, final_time1)
+    ax.scatter3D(feature, MLPdata2, final_time2)
+    ax.scatter3D(feature, MLPdata3, final_time3)
+    ax.legend(['Default','Tangent','Logistic'])
+
+    #Axis labels and figure title
+    ax.set_xlabel('Number Of Features')
+    ax.set_ylabel('Average Accuracy Score')
+    ax.set_zlabel('Time Taken (Seconds)')
+    title = 'MLPClassifier Average of ' + str(average) + ' Model(s)'
+    ax.set_title(title)
+
+    #Shows graph to screen
+    plt.show()
+
+#Main function call------------------------------------------------------------
+main()
+\end{verbatim}
